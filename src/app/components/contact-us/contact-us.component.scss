@@ -1,0 +1,32 @@
+.background-container {
+    background-image: url(../../../assets/images/contact.jpg) !important;
+    height: 400px;
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+
+}
+h2 {
+    padding-top: 5rem;
+    font-size: 40px;
+}
+p {
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.form-container {
+    display: grid;
+    margin: 2.75rem;
+    width: 90%;
+}
+.custom-btn {
+    display: grid;
+    place-items: center;
+}

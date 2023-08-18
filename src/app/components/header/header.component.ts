@@ -14,6 +14,11 @@ export class HeaderComponent implements OnInit {
   }
   openHome() {
     this.router.navigate(['home']);
-    console.log("this is open hoe")
+  }
+  openContactUs() {
+    this.router.navigate(['contact-us']);
+  }
+  openAbout() {
+    this.router.navigate(['about']);
   }
 }

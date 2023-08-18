@@ -1,0 +1,36 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bg-navy {
+    background-color: #33485F;
+}
+.social a {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bg-facebook {
+    background-color: #3664a2;
+}
+.bg-twitter {
+    background-color: #3664a2;
+}
+.bg-google-plus {
+    background-color: #3664a2;
+}
+.bg-linkedin {
+    background-color: #3664a2;
+}
+.social a i {
+    margin-top: 8px;
+}

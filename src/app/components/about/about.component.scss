@@ -1,0 +1,36 @@
+.content {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+.page-container {
+    max-width: 980px;
+}
+.container-module {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.header {
+    display: flex;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.img-container {
+    float: left;
+    margin-right: 1em;
+    img {
+        height: 200px;
+    }
+}
+.skills-section {
+    float: right;
+    width: 250px;
+    margin-left: 1em;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}

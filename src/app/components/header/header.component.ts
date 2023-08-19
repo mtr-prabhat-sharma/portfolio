@@ -21,4 +21,7 @@ export class HeaderComponent implements OnInit {
   openAbout() {
     this.router.navigate(['about']);
   }
+  openServices() {
+    this.router.navigate(['services']);
+  }
 }

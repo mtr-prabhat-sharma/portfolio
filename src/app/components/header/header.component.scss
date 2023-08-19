@@ -1,5 +1,6 @@
 .custom-bg-color {
-    background-color: #ffff !important;
+    //background-color: #ffff !important;
+     background-color: #33485F !important;
 }
 .navbar-brand:hover {
     cursor: pointer;
@@ -8,9 +9,22 @@
     cursor: pointer;
 }
 .navbar-brand {
-    font-size: 2.75rem;
+    margin-left: 2em;
+    img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50px;
+    }
 }
 .navbar-collapse {
     flex-direction: row-reverse;
     margin-right: 10%;
+}
+.navbar-nav {
+    gap: 55px;
+    font-size: 1.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav-link {
+    color: white;
 }

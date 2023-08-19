@@ -3,9 +3,13 @@
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    height: 150px;
 }
 .bg-navy {
     background-color: #33485F;
+}
+.social {
+    padding-top: 2em;
 }
 .social a {
     border-radius: 50%;
@@ -33,4 +37,8 @@
 }
 .social a i {
     margin-top: 8px;
+}
+.credits {
+    padding-top: 3em;
+    color: white;
 }

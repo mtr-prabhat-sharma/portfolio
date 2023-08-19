@@ -4,11 +4,16 @@
 }
 .page-container {
     max-width: 980px;
-}
-.container-module {
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-left: 6rem;
+    text-align: justify;
+    line-height: 1.5;
+    /* text-indent: 9em; */
+    /* font-family: "Merriweather", serif; */
+    font-size: 20px;
 }
+
 .header {
     display: flex;
     margin-bottom: 2.5rem;

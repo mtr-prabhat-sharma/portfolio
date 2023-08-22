@@ -9,13 +9,21 @@ import { HomeComponent } from './components/home/home.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { AboutComponent } from './components/about/about.component';
+import { WhatsappLinkComponent } from './components/whatsapp-link/whatsapp-link.component';
+import { ProjectShowcaseComponent } from './components/project-showcase/project-showcase.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ContactUsComponent,
+    AboutComponent,
+    WhatsappLinkComponent,
+    ProjectShowcaseComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +32,9 @@ import { FooterComponent } from './components/footer/footer.component';
     MatDividerModule,
     MatCardModule,
 
+  ],
+  exports: [
+    WhatsappLinkComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

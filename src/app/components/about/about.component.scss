@@ -1,0 +1,45 @@
+.content {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+.page-container {
+    max-width: 980px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 6rem;
+    text-align: justify;
+    line-height: 1.5;
+    /* text-indent: 9em; */
+    /* font-family: "Merriweather", serif; */
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.img-container {
+    float: left;
+    margin-right: 1em;
+    img {
+        height: 200px;
+        border-radius: 10px;
+    }
+}
+.skills-section {
+    float: right;
+    width: 250px;
+    margin-left: 1em;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.backend-end-container {
+    margin: 4rem 0 4rem 0;
+}

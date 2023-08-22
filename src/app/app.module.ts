@@ -21,7 +21,7 @@ import { WhatsappLinkComponent } from './components/whatsapp-link/whatsapp-link.
     FooterComponent,
     ContactUsComponent,
     AboutComponent,
-    WhatsappLinkComponent,
+    WhatsappLinkComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +30,9 @@ import { WhatsappLinkComponent } from './components/whatsapp-link/whatsapp-link.
     MatDividerModule,
     MatCardModule,
 
+  ],
+  exports: [
+    WhatsappLinkComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

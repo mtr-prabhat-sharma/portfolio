@@ -11,6 +11,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { AboutComponent } from './components/about/about.component';
+import { WhatsappLinkComponent } from './components/whatsapp-link/whatsapp-link.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     ContactUsComponent,
     AboutComponent,
+    WhatsappLinkComponent,
   ],
   imports: [
     BrowserModule,

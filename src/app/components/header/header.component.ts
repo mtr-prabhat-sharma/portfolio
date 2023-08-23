@@ -12,16 +12,16 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  openHome() {
-    this.router.navigate(['home']);
-  }
-  openContactUs() {
-    this.router.navigate(['contact-us']);
-  }
-  openAbout() {
-    this.router.navigate(['about']);
-  }
-  openServices() {
-    this.router.navigate(['services']);
-  }
+  // openHome() {
+  //   this.router.navigate(['home']);
+  // }
+  // openContactUs() {
+  //   this.router.navigate(['contact-us']);
+  // }
+  // openAbout() {
+  //   this.router.navigate(['about']);
+  // }
+  // openServices() {
+  //   this.router.navigate(['services']);
+  // }
 }

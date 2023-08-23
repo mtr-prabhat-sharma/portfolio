@@ -43,3 +43,22 @@ li {
 .backend-end-container {
     margin: 4rem 0 4rem 0;
 }
+@media screen and (max-width: 768px) {
+    //padding-left: 2rem;
+    // padding-right: 2rem;
+    // margin-left: 6rem;
+    // text-align: justify;
+    // line-height: 1.5;
+    // /* text-indent: 9em; */
+    // /* font-family: "Merriweather", serif; */
+    // font-size: 20px;
+    .page-container {
+        width: 98%;
+        margin-left: 1.5rem;
+        text-align: justify;
+        line-height: 1;
+        /* text-indent: 9em; */
+        /* font-family: "Merriweather", serif; */
+        font-size: 15px;
+    }
+  }

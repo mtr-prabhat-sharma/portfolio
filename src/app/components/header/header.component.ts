@@ -7,10 +7,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  openMenu: boolean = true;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+  toogleMenu() {
+    this.openMenu = !this.openMenu;
   }
   // openHome() {
   //   this.router.navigate(['home']);
